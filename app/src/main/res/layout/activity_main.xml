@@ -23,14 +23,17 @@
         android:layout_height="180dp"
         android:id="@+id/imageView"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20dp" />
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/mirko"
+        android:scaleType="fitCenter" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Summary"
         android:id="@+id/button"
-        android:layout_gravity="center_horizontal" />
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp" />
 
     <Button
         android:layout_width="200dp"

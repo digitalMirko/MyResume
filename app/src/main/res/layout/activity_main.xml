@@ -46,21 +46,21 @@
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Call Mirko"
-        android:id="@+id/button3"
+        android:id="@+id/callBtn"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Email Mirko"
-        android:id="@+id/button4"
+        android:id="@+id/emailBtn"
         android:layout_gravity="center_horizontal" />
 
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="Samples Website"
-        android:id="@+id/button5"
+        android:id="@+id/webBtn"
         android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

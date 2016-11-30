@@ -9,6 +9,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button summaryButton;
+    Button experienceButton;
 
 
     @Override
@@ -21,6 +22,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent goToTheOtherActivity = new Intent(getApplicationContext(),SummaryActivity.class);
+                startActivity(goToTheOtherActivity);
+            }
+        });
+
+
+        experienceButton = (Button) findViewById(R.id.experienceBtn);
+        experienceButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent goToTheOtherActivity = new Intent(getApplicationContext(),ExperienceActivity.class);
                 startActivity(goToTheOtherActivity);
             }
         });
